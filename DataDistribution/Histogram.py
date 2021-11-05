@@ -1,73 +1,65 @@
-#Age vs Price
+
+#HP
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv", index_col=0)
-plt.scatter(data['Age'],data['Price'])
-plt.title('Scatter plot of Age vs Price')
+plt.hist(data['HP'],color='orange')
+plt.title('HP Histogram')
+plt.xlabel('HP')
+plt.ylabel('Frequency')
 plt.show()
 
-
-#KM vs HP
+#Price
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv", index_col=0)
-plt.scatter(data['KM'],data['HP'])
-plt.title('Scatter plot of KM vs HP')
-plt.xlabel('KM')
-plt.ylabel('HP')
+plt.hist(data['Price'],color='orange')
+plt.title('Price Histogram')
+plt.xlabel('Price')
+plt.ylabel('Frequency')
 plt.show()
 
-
-#CC vs Weight
+#Age
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv", index_col=0)
-plt.scatter(data['CC'],data['Weight'])
-plt.title('Scatter plot of CC vs Weight')
+plt.hist(data['Age'],color='orange')
+plt.title('Age Histogram')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
+
+#CC
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+os.chdir(r"C:\Users\Prerna\Downloads")
+print(os.getcwd())
+data = pd.read_csv("Toyota.csv", index_col=0)
+plt.hist(data['CC'],color='orange')
+plt.title('CC Histogram')
 plt.xlabel('CC')
-plt.ylabel('Weight')
+plt.ylabel('Frequency')
 plt.show()
 
-
-#FuelType vs HP
+#Weight
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv", index_col=0)
-sns.scatterplot(data['FuelType'],data['HP'])
-plt.title('Scatter plot of FuelType vs HP')
-plt.xlabel('FuelType')
-plt.ylabel('HP')
+plt.hist(data['Weight'],color='orange')
+plt.title('Weight Histogram')
+plt.xlabel('Weight')
+plt.ylabel('Frequency')
 plt.show()
-
-#MetColor vs Doors
-import os
-import pandas as pd
-import matplotlib.pyplot as plt
-
-os.chdir(r"C:\Users\Prerna\Downloads")
-print(os.getcwd())
-data = pd.read_csv("Toyota.csv", index_col=0)
-plt.scatter(data['MetColor'],data['Doors'])
-plt.title('Scatter plot of MetColor vs Doors')
-plt.xlabel('MetColor ')
-plt.ylabel('Doors')
-plt.show()
-
-

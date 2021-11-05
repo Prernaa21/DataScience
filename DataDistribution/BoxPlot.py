@@ -2,6 +2,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:/Users/Prerna/Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -13,6 +14,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -23,6 +25,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -33,6 +36,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -44,6 +48,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -54,6 +59,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -64,6 +70,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -74,6 +81,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
@@ -84,6 +92,7 @@ plt.show()
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+
 os.chdir(r"C:\Users\Prerna\Downloads")
 print(os.getcwd())
 data = pd.read_csv("Toyota.csv")
